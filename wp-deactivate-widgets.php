@@ -11,7 +11,7 @@ add_action('after_setup_theme', 'gm_remove_theme_default_widgets' );
 * i.e. storing active widgets
 */
 
-function acme_remove_default_widgets() {
+function gm_remove_theme_default_widgets() {
  
   if ( ! get_option( 'gm_cleared_widgets' ) ) {
  
